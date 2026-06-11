@@ -97,7 +97,7 @@ const SERVICES = [
     tag: ["Protege lo que más importa", "Protect what matters most"],
     desc: ["Cobertura de auto, hogar, vida y salud diseñada para tu familia y tu presupuesto.", "Auto, home, life and health coverage built around your family and your budget."],
     bullets: [["Seguro de auto", "Auto insurance"], ["Seguro de hogar", "Home insurance"], ["Seguro de vida", "Life insurance"], ["Seguro médico", "Health insurance"]],
-    calendly: "",
+    calendly: "https://calendly.com/sistemas-sow/test",
   },
   {
     id: "taxes", icon: Percent, accent: C.lavender,
@@ -105,7 +105,7 @@ const SERVICES = [
     tag: ["Tu declaración, sin estrés", "Your return, stress-free"],
     desc: ["Preparación de impuestos personales y de negocio, con o sin ITIN, incluyendo años atrasados.", "Personal and business tax prep, with or without an ITIN, including back years."],
     bullets: [["Preparación de taxes", "Tax preparation"], ["Trámite de ITIN", "ITIN application"], ["Impuestos de negocio", "Business taxes"], ["Años atrasados", "Back-year filing"]],
-    calendly: "",
+    calendly: "https://calendly.com/sistemas-sow/test",
   },
   {
     id: "vacations", icon: Umbrella, accent: C.pink,
@@ -113,7 +113,7 @@ const SERVICES = [
     tag: ["El descanso que mereces", "The break you deserve"],
     desc: ["Planes y paquetes vacacionales a tu medida, con opciones de pago a plazos.", "Custom vacation plans and packages, with installment payment options."],
     bullets: [["Paquetes todo incluido", "All-inclusive packages"], ["Cruceros", "Cruises"], ["Grupos y familias", "Groups & families"], ["Pagos a plazos", "Installment plans"]],
-    calendly: "",
+    calendly: "https://calendly.com/sistemas-sow/test",
   },
   {
     id: "notary", icon: Stamp, accent: C.ink,
@@ -121,7 +121,7 @@ const SERVICES = [
     tag: ["Tus documentos, en orden", "Your documents, in order"],
     desc: ["Servicios de notario público para certificar y firmar tus documentos importantes.", "Notary public services to certify and sign your important documents."],
     bullets: [["Certificación de documentos", "Document certification"], ["Cartas poder", "Power of attorney"], ["Affidávits", "Affidavits"], ["Toma de firmas", "Signature witnessing"]],
-    calendly: "",
+    ccalendly: "https://calendly.com/sistemas-sow/test",
   },
   {
     id: "travel", icon: Plane, accent: C.sage,
@@ -129,7 +129,7 @@ const SERVICES = [
     tag: ["Solo disfruta el viaje", "Just enjoy the trip"],
     desc: ["Vuelos, hospedaje y seguro de viaje organizados para que solo pienses en disfrutar.", "Flights, lodging and travel insurance handled so you only think about enjoying."],
     bullets: [["Vuelos", "Flights"], ["Hoteles", "Hotels"], ["Seguro de viaje", "Travel insurance"], ["Itinerarios", "Itineraries"]],
-    calendly: "",
+    calendly: "https://calendly.com/sistemas-sow/test",
   },
   {
     id: "immigration", icon: Globe2, accent: C.lavender,
@@ -137,7 +137,7 @@ const SERVICES = [
     tag: ["Acompañamiento paso a paso", "Step-by-step support"],
     desc: ["Apoyo en el llenado de formularios y trámites migratorios, con seguimiento de tus citas.", "Help filling out forms and immigration paperwork, with appointment tracking."],
     bullets: [["Llenado de formularios", "Form filling"], ["Renovaciones", "Renewals"], ["Citas y biométricos", "Appointments & biometrics"], ["Asesoría general", "General guidance"]],
-    calendly: "",
+    calendly: "https://calendly.com/sistemas-sow/test",
   },
 ];
 
@@ -316,7 +316,7 @@ function Footer({ lang, go }) {
         <div className="ftr-links">
           {SERVICES.map((s) => <button key={s.id} onClick={() => go(s.id)}>{s.name[lang]}</button>)}
         </div>
-        <p className="ftr-copy">© 2024 951 Services. {T.contact.rights[lang]}</p>
+        <p className="ftr-copy">© 2026 951 Services. {T.contact.rights[lang]}</p>
       </div>
     </footer>
   );
